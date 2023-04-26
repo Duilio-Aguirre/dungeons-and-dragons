@@ -10,38 +10,20 @@
     src: url(../fuentes/MedievalSharp-Regular.ttf);
 }
 
-/* ESTILO DEL HEADER // ESTILO DEL HEADER // ESTILO DEL HEADER */
-.header {
-    display: flex;
-    background-color: #A50202;
-    color: black;
-    font-size: 30px;
-    justify-content: space-between;
-    align-items: center;
+/* HEADER BOOTSTRAP */
+.navbar-collapse {
+    font-family: "MedievalSharp";
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.ancho-limitado {
+    padding-left: 3%;
 }
 
-.headerlogo {
-    display: flex;
-    padding: 6px 30px 6px 30px;
-    height: inherit;
-    width: 200px;
-}
-
-.barra-de-navegacion {
-    width: 1200px;
-    height: inherit;
-    display: flex;
-    padding-right: 420px;
-    color: black;
-}
-
-.iteminline {
-    display: inline;
-    padding-inline: 30px;
-}
-
-a {
-    color: black;
+.bg-body-tertiary {
+    --bs-bg-opacity: 1;
+    background-color: #A50202 !important;
 }
 
 /* ESTILO DEL INDEX // ESTILO DEL INDEX // ESTILO DEL INDEX */
@@ -64,9 +46,8 @@ a {
 .maintext {
     margin-left: 20px;
     padding-bottom: 20px;
-    width: 1400px;
     font-family: "MedievalSharp";
-    font-size: 30px;
+    font-size: 180%;
 }
 
 .banner-principal {
@@ -86,13 +67,6 @@ a {
 #main-que-es {
     background-color: black;
     color: whitesmoke;
-}
-
-#iframe-que-es {
-    display: block;
-    height: 720px;
-    width: 1080px;
-
 }
 
 /* ESTILO DE LA PAGINA COMO JUGAR // ESTILO DE LA PAGINA COMO JUGAR // ESTILO DE LA PAGINA COMO JUGAR */
@@ -123,12 +97,16 @@ ol {
 }
 
 .h1titulo {
-    padding: 5px;
+    text-align: center;
+    padding-left: 15px;
+    padding-right: 15px;
     font-family: "MedievalSharp";
     font-size: 50px;
 }
 
+
 /* ESTILO DE LA PAGINA MATERIAL DE JUEGO // ESTILO DE LA PAGINA MATERIAL DE JUEGO // ESTILO DE LA PAGINA MATERIAL DE JUEGO */
+
 
 #main-material {
     background-color: black;
@@ -146,6 +124,19 @@ ol {
 .underlined-li {
     text-decoration: underline;
     font-weight: bolder;
+}
+
+.accordion {
+    --bs-accordion-color: #ffffff;
+    --bs-accordion-bg: black;
+    --bs-accordion-btn-color: #A50202;
+    font-family: "MedievalSharp";
+    font-size: 24px;
+}
+
+.accordion-button {
+    font-family: "MedievalSharp";
+    font-size: 26px;
 }
 
 /* ESTILO DE LA PAGINA CREADORES // ESTILO DE LA PAGINA CREADORES // ESTILO DE LA PAGINA CREADORES */
